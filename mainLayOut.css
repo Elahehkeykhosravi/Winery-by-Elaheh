@@ -1,0 +1,415 @@
+body {
+    font-family: "Karla, Arial, Helvetica, sans-serif";
+}
+
+:root {
+    --favcolor: #45152a;
+}
+
+.main {
+
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 175px;
+
+    * {
+        height: inherit;
+    }
+
+    >.container {
+        background-image: url(https://avada.website/winery/wp-content/uploads/sites/150/2020/11/header-background-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 175px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 10px;
+
+
+        >.logo {
+            max-width: 100%;
+            max-height: 120px;
+
+        }
+
+
+        >a {
+            >.cardLogo {
+                position: absolute;
+                right: 150px;
+                bottom: 70px;
+                width: 40px;
+                height: auto;
+                border: 1px solid #ff6365;
+                border-radius: 10%;
+                padding: 3px;
+                filter: invert(#ff6365);
+
+
+
+            }
+
+
+        }
+    }
+
+
+
+}
+
+.subMenu {
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+
+
+    >.row {
+        display: flex;
+        align-content: center;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #45152a;
+
+        >ul {
+            display: flex;
+            height: 100%;
+            gap: 10px;
+
+
+            >li {
+                /* border: 2px solid black; */
+                display: flex;
+                align-items: center;
+
+                &:first-of-type {
+                    >a {
+                        color: #ff6365;
+                    }
+
+                }
+
+                >a {
+                    /* background-color: blue; */
+                    padding: 10px;
+                    font-family: 'karla';
+                    color: rgba(255, 255, 255, 0.837);
+                    font-size: 15px;
+                    font-weight: 400;
+
+                    &:hover {
+                        color: #ff6365;
+                    }
+
+
+
+                }
+            }
+
+
+
+
+        }
+    }
+}
+
+.shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://avada.website/winery/wp-content/uploads/sites/150/2020/11/hero-background-full-scaled.jpg);
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    >.shop-container {
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        z-index: 2;
+
+        >h1 {
+            font-family: Montserrat, Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 44px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            letter-spacing: 2px;
+
+
+        }
+
+        >p {
+            /* border: 2px solid yellow; */
+            width: 100%;
+            height: 100px;
+            display: block;
+            font-size: 100px;
+            text-align: center;
+            font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            line-height: 100px;
+            color: rgb(255, 255, 255);
+
+        }
+
+        >a {
+            width: 200px;
+            height: 50px;
+            /* border: 4px solid blueviolet; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(127, 15, 65);
+            font-size: 18px;
+            font-family: Karla, Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            letter-spacing: 2px;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #ff6365;
+            }
+
+        }
+
+    }
+}
+
+
+.ribbon {
+    height: 70px;
+    background-color: #16050c;
+    margin-top: -70px;
+}
+
+
+.vine-container {
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid black; */
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    /* z-index: 1; */
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    >section {
+        display: flex;
+        gap: 30px;
+
+        >div {
+
+            width: 430px;
+            height: 328px;
+            /* border: 2px solid red; */
+            background: url(https://avada.website/winery/wp-content/uploads/sites/150/2020/11/calltoaction-background.jpg);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-position: right;
+            /* display: flex; */
+            justify-content: center;
+            border-radius: 6px 6px 0px 0px;
+
+            >h2 {
+                width: 100%;
+                height: 20%;
+                /* border: 2px solid black; */
+                font-size: 35px;
+                font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                text-align: center;
+                line-height: 40.6px;
+                color: rgb(127, 15, 65);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            >figure {
+                height: 65%;
+                /* border: 2px solid red; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+
+
+                >img {
+                    height: 80%;
+                    margin-top: 47px;
+                }
+
+            }
+
+            >figcaption {
+                height: 15%;
+                background: rgb(127, 15, 65);
+                /* border: 2px solid yellow; */
+                font-size: 14px;
+                font-family: Karla, Arial, Helvetica, sans-serif;
+                font-weight: 400;
+                text-align: center;
+                line-height: 16.8px;
+                color: rgb(255, 255, 255);
+                letter-spacing: 2px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    background-color: #ff6365;
+
+                }
+
+            }
+        }
+    }
+}
+
+.price-container {
+    width: 100%;
+    height: 850px;
+    /* border: 2px solid red; */
+
+    >.special {
+        height: 40%;
+        /* border: 3px solid blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+        >h2 {
+            font-size: 17px;
+            font-family: Montserrat, Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            text-align: center;
+            line-height: 34px;
+            color: rgb(69, 21, 42);
+            letter-spacing: 2px;
+
+        }
+
+        >h3 {
+            font-size: 60px;
+            font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            text-align: center;
+            line-height: 60px;
+            color: rgb(69, 21, 42);
+        }
+    }
+
+    >.gallery {
+        height: 60%;
+        /* border: 3px solid yellow; */
+
+        >ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+           
+                
+
+            li {
+                width: 373px;
+                height: 422px;
+                /* border: 2px solid purple; */
+
+
+                >a {
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /* flex-direction: column; */
+                    flex-wrap: wrap;
+
+                    >img {
+                        height: 65%;
+                        overflow: hidden;
+
+                    }
+
+
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    margin-top: 15px;
+
+
+                    >h2 {
+                        font-size: 25px;
+                        font-family:"Playfair Display", Arial, Helvetica, sans-serif;
+                        font-weight: 300;
+                        text-align: center;
+                        line-height: 25.2px;
+                        color: rgb(33, 41, 52);
+
+
+
+
+                    }
+
+                    >h3 {
+                        font-size: 14px;
+                        font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+                        font-weight: 400;
+                        text-align: center;
+                        line-height: 25.2px;
+                        color: rgba(33, 41, 52, 0.514);
+
+
+                    }
+
+                    >h4 {
+
+                        font-size: 19px;
+                        font-family: Montserrat, Arial, Helvetica, sans-serif;
+                        font-weight: 400;
+                        align-items: center;
+                        line-height: 25.2px;
+                        color: #ff6365;
+                       
+
+
+
+
+                    }
+                }
+            }
+        }
+    }
+
+}
